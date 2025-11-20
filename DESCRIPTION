@@ -1,0 +1,32 @@
+Package: OpenTargetsR
+Type: Package
+Title: Enhanced R Interface for Open Targets Platform
+Version: 2.0.0
+Author: Zaoqu Liu <liuzaoqu@163.com>
+Maintainer: Zaoqu Liu <liuzaoqu@163.com>
+Description: An enhanced R interface for querying the Open Targets Platform,
+    providing user-friendly wrapper functions around the otargen package.
+    This package simplifies data retrieval by accepting human-readable gene
+    symbols and disease names, automatically converting them to the required
+    identifiers for API queries. Version 2.0.0 introduces a modern snake_case
+    naming convention for all functions and removes deprecated legacy function
+    names for a cleaner, more maintainable codebase.
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+Imports:
+    otargen,
+    BioEnricher,
+    dplyr,
+    tibble,
+    purrr,
+    rlang,
+    stringr,
+    httr,
+    jsonlite,
+    utils
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
