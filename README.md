@@ -23,7 +23,7 @@ OpenTargetsR simplifies data retrieval from the Open Targets Platform by accepti
 
 ```r
 # Install from GitHub (once published)
-# devtools::install_github("liuzaoqu/OpenTargetsR")
+# devtools::install_github("Zaoqu-Liu/OpenTargetsR")
 
 # For now, install locally after downloading
 # devtools::install_local("/path/to/OpenTargetsR")
